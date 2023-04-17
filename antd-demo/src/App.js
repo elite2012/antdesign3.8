@@ -1,9 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import buttons from './componet/buttons';
+import { Button } from 'antd';
+import './App.css';
 
-ReactDOM.render(
-   <buttons/>,
-   document.getElementById('root')
-)
+const App = () => (
+  <div className="App">
+    <Button type="primary">Button</Button>
+  </div>
+);
+
+export default App;
