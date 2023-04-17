@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import buttons from './componet/buttons';
+import App  from './App';
 
 ReactDOM.render(
-   <buttons/>,
+   <App/>,
    document.getElementById('root')
 )
-
